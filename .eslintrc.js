@@ -71,7 +71,10 @@ module.exports = {
     'space-unary-ops': [ 'error', { words: true, nonwords: false } ],
     'template-curly-spacing': [ 'error', 'always' ],
     'react/display-name': 'off',
-    'react/jsx-curly-spacing': [ 'error', { when: 'always', children: true } ],
+    'react/jsx-curly-spacing': [
+      'error',
+      { when: 'always', children: true, spacing: { objectLiterals: 'never' } },
+    ],
     'react/jsx-equals-spacing': 'error',
     'react/jsx-indent': [ 'error', 2 ],
     'react/jsx-key': 'error',
