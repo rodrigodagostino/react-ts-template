@@ -32,7 +32,7 @@ module.exports = {
   },
   rules: {
     'array-bracket-spacing': [ 'error', 'always' ],
-    'arrow-parens': [ 'error', 'as-needed' ],
+    'arrow-parens': [ 'error', 'always' ],
     'arrow-spacing': [ 'error', { before: true, after: true } ],
     'brace-style': [ 'error', '1tbs' ],
     camelcase: [ 'error', { properties: 'never' } ],
