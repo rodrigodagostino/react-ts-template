@@ -43,7 +43,6 @@ module.exports = {
     'func-call-spacing': 'error',
     indent: [ 'error', 2, { SwitchCase: 1 } ],
     'key-spacing': [ 'error', { afterColon: true } ],
-    'max-len': [ 'error', { code: 80 } ],
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-duplicate-imports': 'error',
