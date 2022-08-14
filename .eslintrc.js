@@ -1,8 +1,9 @@
 module.exports = {
   root: true,
   env: {
-    es6: true,
+    browser: true,
     node: true,
+    es6: true,
   },
   plugins: ['react', 'jsx-a11y', 'prettier'],
   extends: [
