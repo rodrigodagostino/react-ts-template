@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + SWC
 
 This template should help get you started developing with React + TypeScript in Vite.
 
