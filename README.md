@@ -1,4 +1,4 @@
-# Vite + React + TypeScript 
+# React + TypeScript + Vite
 
 This template should help get you started developing with React + TypeScript in Vite.
 
