@@ -11,7 +11,6 @@ module.exports = {
 	plugins: ['react-refresh'],
 	ignorePatterns: ['dist', '.eslintrc.cjs'],
 	parser: '@typescript-eslint/parser',
-	settings: { react: { version: 'detect' } },
 	rules: {
 		'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
 	},
